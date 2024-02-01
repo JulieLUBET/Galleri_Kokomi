@@ -1,0 +1,154 @@
+/*   ----- header -----   */
+
+header {
+    background-color: #6a62cf;
+    height: 80px;
+    margin: 10px;
+}
+
+nav, ul, li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+ul, li, a {
+    color: #fff;
+    letter-spacing: 0.1rem;
+}
+
+ul, li, a:hover{
+    color: rgb(255, 223, 228);
+}
+
+.menu {
+    display: flex;
+    padding: 0;
+    justify-content:space-around;
+}
+
+.menu a{
+    display: block;
+    min-width: 120px;
+    margin: 0.5rem;             
+    padding: 0.5rem 0;
+    text-align: center;
+    color: #fff; 
+    text-decoration: none;      
+    border: 2px solid #fff;   /* Ajout d'une bordure */
+    border-radius: 10px;        /* Arrondis des bordures */
+    transition: all 1s ;        /* Ajout des effets de transition */
+}
+
+.menu a:hover{
+    background-color: rgb(255, 223, 228);
+    color: black;
+}
+
+
+
+/*   ----- body -----   */
+
+body {
+    background-color: rgb(255, 223, 228);
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 300%;
+    text-align: center;
+}
+
+
+footer {
+    color: blueviolet;
+}
+
+
+
+
+/*   ----- image description -----   */
+
+.d-flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.d-flex img {
+    width: 100%;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+/*   ----- gallerie -----   */
+.galleri {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.galleri img {
+    height: 250px;
+}
+
+.galleri_fanart {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.galleri_fanart img {
+    height: 400px;
+}
+
+/*   ----- mise en forme -----   */
+
+h2,
+p {
+    margin: 5%;
+    font-size: x-large;
+}
+
+.H2 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.affichage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.affichage img {
+    width: 70%;
+}
+
+.normal {
+    margin-top: 0%;
+    margin-left: 0%;
+}
